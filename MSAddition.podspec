@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version = '0.0.1'
   spec.authors = { 'Marcin Stepnowski' => 'le0n.uo@gmail.com' }
   spec.homepage = 'https://github.com/WezSieTato/MSAddition'
-  spec.summary = 'Useful categories with methods you can't find in SSToolkit.'
+  spec.summary = 'Useful categories with methods you can\'t find in SSToolkit.'
   spec.source = { :git => 'https://github.com/WezSieTato/MSAddition.git', :tag => "v#{spec.version}" }
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
