@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.ios.frameworks = 'UIKit'
+  spec.ios.frameworks = 'Foundation'
   spec.ios.source_files = 'MSAddition/*.{h,m}'
 
   spec.osx.source_files = 'MSAddition/*.{h,m}'
