@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'MSAddition'
-  spec.version = '0.0.1'
+  spec.version = '0.0.2'
   spec.authors = { 'Marcin Stepnowski' => 'le0n.uo@gmail.com' }
   spec.homepage = 'https://github.com/WezSieTato/MSAddition'
   spec.summary = 'Useful categories with methods you can\'t find in SSToolkit.'

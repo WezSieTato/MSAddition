@@ -411,6 +411,7 @@
 				D39113141A2F1F7D002014D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D39113151A2F1F7D002014D2 /* Build configuration list for PBXNativeTarget "MSAdditionTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				D39113171A2F1F7D002014D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

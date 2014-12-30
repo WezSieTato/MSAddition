@@ -13,6 +13,7 @@
 @property (nonatomic, readonly) NSNumber* ms_numberValue;
 @property (nonatomic, readonly) NSArray* ms_charsArray;
 @property (nonatomic, readonly) NSArray* ms_wordsArray;
+@property (nonatomic, readonly) BOOL ms_isEmail;
 
 -(NSString*)ms_stringByRemovingCharactersInString:(NSString*)characters;
 -(NSString*)ms_stringByRemovingEverythingWithoutCharactersInString:(NSString*)characters;

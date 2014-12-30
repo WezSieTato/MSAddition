@@ -84,4 +84,13 @@
 
 }
 
+-(void)testEmail{
+    XCTAssertFalse([@"" ms_isEmail]);
+    XCTAssertFalse([@"siema" ms_isEmail]);
+    XCTAssertFalse([@"@pl" ms_isEmail]);
+    XCTAssertFalse([@"@wp.pl" ms_isEmail]);
+    XCTAssertFalse([@"siema@pl" ms_isEmail]);
+    XCTAssertTrue([@"siema@wp.pl" ms_isEmail]);
+}
+
 @end
