@@ -6,15 +6,14 @@
 //  Copyright (c) 2014 siema. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "NSDictionary+MSAddition.h"
 
-@interface MSDictionary : XCTestCase
+@interface MSDictionaryTest : XCTestCase
 
 @end
 
-@implementation MSDictionary
+@implementation MSDictionaryTest
 
 - (void)setUp {
     [super setUp];
