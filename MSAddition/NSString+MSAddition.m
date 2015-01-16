@@ -52,11 +52,8 @@
     
     NSPredicate* emailPredicate = [NSPredicate predicateWithFormat:@"SELF MATCHES[c] %@", emailRegex];
     
-    if (![emailPredicate evaluateWithObject:self]) {
-        return NO;
-    }
-    
-    return YES;
+    return [emailPredicate evaluateWithObject:self];
+
 }
 
 #pragma mark - Replacing from string
