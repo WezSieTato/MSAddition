@@ -13,4 +13,9 @@
 #import "NSString+MSAddition.h"
 #import "NSDictionary+MSAddition.h"
 
+// UIKit
+#if TARGET_OS_IPHONE
+    #import "UIView+MSAddition.h"
+#endif
+
 #endif
