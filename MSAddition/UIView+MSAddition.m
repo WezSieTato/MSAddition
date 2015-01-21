@@ -20,4 +20,14 @@
     return self.frame.origin;
 }
 
+-(void)ms_setSizeFrame:(CGSize)ms_sizeFrame{
+    CGRect frame = self.frame;
+    frame.size = ms_sizeFrame;
+    self.frame = frame;
+}
+
+-(CGSize)ms_sizeFrame{
+    return self.frame.size;
+}
+
 @end

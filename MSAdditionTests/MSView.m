@@ -26,4 +26,14 @@
 
 }
 
+-(void)testSizeFrame{
+    UIView* view = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 100, 200)];
+    XCTAssertEqual(100, [view ms_sizeFrame].width);
+    XCTAssertEqual(200, [view ms_sizeFrame].height);
+    
+    [view ms_setSizeFrame:CGSizeMake(200, 100)];
+    XCTAssertEqual(200, view.frame.size.width);
+    XCTAssertEqual(100, view.frame.size.height);
+}
+
 @end

@@ -11,5 +11,6 @@
 @interface UIView (MSAddition)
 
 @property (nonatomic, setter=ms_setOriginFrame:) CGPoint ms_originFrame;
+@property (nonatomic, setter=ms_setSizeFrame:) CGSize ms_sizeFrame;
 
 @end
