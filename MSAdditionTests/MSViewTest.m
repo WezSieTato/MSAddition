@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "UIView+MSAddition.h"
 
-@interface MSView : XCTestCase
+@interface MSViewTest : XCTestCase
 
 @end
 
-@implementation MSView
+@implementation MSViewTest
 
 - (void)testOriginFrame{
     UIView* view = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 250, 250)];

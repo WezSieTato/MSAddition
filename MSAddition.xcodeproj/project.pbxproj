@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D346DBB31A77A61F005E85E2 /* MSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D346DBB21A77A61F005E85E2 /* MSArrayTest.m */; };
 		D3599B711A6F9E5300923BB3 /* UIView+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */; };
-		D3599B731A6F9FF800923BB3 /* MSView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B721A6F9FF800923BB3 /* MSView.m */; };
+		D3599B731A6F9FF800923BB3 /* MSViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B721A6F9FF800923BB3 /* MSViewTest.m */; };
 		D35FBA6E1A602C1800BB8A36 /* NSObject+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */; };
 		D35FBA701A602D3800BB8A36 /* MSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */; };
 		D39113251A2F2239002014D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113211A2F2239002014D2 /* AppDelegate.m */; };
@@ -21,6 +22,7 @@
 		D39113331A2F2952002014D2 /* MSMutableStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113321A2F2952002014D2 /* MSMutableStringTest.m */; };
 		D39113351A2F2BEE002014D2 /* MSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113341A2F2BEE002014D2 /* MSStringTest.m */; };
 		D39113371A2F3249002014D2 /* MSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113361A2F3249002014D2 /* MSDictionaryTest.m */; };
+		D3A7629C1A779EFD0074139B /* NSArray+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D346DBB21A77A61F005E85E2 /* MSArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSArrayTest.m; sourceTree = "<group>"; };
 		D3599B6F1A6F9E5300923BB3 /* UIView+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSAddition.h"; sourceTree = "<group>"; };
 		D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSAddition.m"; sourceTree = "<group>"; };
-		D3599B721A6F9FF800923BB3 /* MSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSView.m; sourceTree = "<group>"; };
+		D3599B721A6F9FF800923BB3 /* MSViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewTest.m; sourceTree = "<group>"; };
 		D35FBA6C1A602C1800BB8A36 /* NSObject+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MSAddition.h"; sourceTree = "<group>"; };
 		D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MSAddition.m"; sourceTree = "<group>"; };
 		D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObjectTest.m; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		D39113341A2F2BEE002014D2 /* MSStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStringTest.m; sourceTree = "<group>"; };
 		D39113361A2F3249002014D2 /* MSDictionaryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDictionaryTest.m; sourceTree = "<group>"; };
 		D39113381A2F35EC002014D2 /* MSAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAddition.h; sourceTree = "<group>"; };
+		D3A7629A1A779EFD0074139B /* NSArray+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSAddition.h"; sourceTree = "<group>"; };
+		D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MSAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,8 @@
 				D39113381A2F35EC002014D2 /* MSAddition.h */,
 				D3599B6F1A6F9E5300923BB3 /* UIView+MSAddition.h */,
 				D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */,
+				D3A7629A1A779EFD0074139B /* NSArray+MSAddition.h */,
+				D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */,
 			);
 			path = MSAddition;
 			sourceTree = "<group>";
@@ -123,7 +130,8 @@
 				D39113341A2F2BEE002014D2 /* MSStringTest.m */,
 				D39113361A2F3249002014D2 /* MSDictionaryTest.m */,
 				D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */,
-				D3599B721A6F9FF800923BB3 /* MSView.m */,
+				D3599B721A6F9FF800923BB3 /* MSViewTest.m */,
+				D346DBB21A77A61F005E85E2 /* MSArrayTest.m */,
 			);
 			path = MSAdditionTests;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 				D39113281A2F2239002014D2 /* main.m in Sources */,
 				D39113251A2F2239002014D2 /* AppDelegate.m in Sources */,
 				D391132F1A2F22B0002014D2 /* NSDictionary+MSAddition.m in Sources */,
+				D3A7629C1A779EFD0074139B /* NSArray+MSAddition.m in Sources */,
 				D39113311A2F22B0002014D2 /* NSString+MSAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +274,8 @@
 				D39113351A2F2BEE002014D2 /* MSStringTest.m in Sources */,
 				D39113331A2F2952002014D2 /* MSMutableStringTest.m in Sources */,
 				D39113371A2F3249002014D2 /* MSDictionaryTest.m in Sources */,
-				D3599B731A6F9FF800923BB3 /* MSView.m in Sources */,
+				D3599B731A6F9FF800923BB3 /* MSViewTest.m in Sources */,
+				D346DBB31A77A61F005E85E2 /* MSArrayTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
