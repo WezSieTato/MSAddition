@@ -12,6 +12,7 @@
 		D3599B731A6F9FF800923BB3 /* MSViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B721A6F9FF800923BB3 /* MSViewTest.m */; };
 		D35FBA6E1A602C1800BB8A36 /* NSObject+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */; };
 		D35FBA701A602D3800BB8A36 /* MSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */; };
+		D3780B631A84F42B0007C544 /* NSURL+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */; };
 		D39113251A2F2239002014D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113211A2F2239002014D2 /* AppDelegate.m */; };
 		D39113261A2F2239002014D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39113221A2F2239002014D2 /* Images.xcassets */; };
 		D39113271A2F2239002014D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D39113231A2F2239002014D2 /* Info.plist */; };
@@ -43,6 +44,9 @@
 		D35FBA6C1A602C1800BB8A36 /* NSObject+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MSAddition.h"; sourceTree = "<group>"; };
 		D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MSAddition.m"; sourceTree = "<group>"; };
 		D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObjectTest.m; sourceTree = "<group>"; };
+		D3780B611A84F42B0007C544 /* NSURL+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MSAddition.h"; sourceTree = "<group>"; };
+		D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MSAddition.m"; sourceTree = "<group>"; };
+		D3780B641A84F4820007C544 /* MSAddition.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MSAddition.podspec; sourceTree = "<group>"; };
 		D39112EF1A2F1F7D002014D2 /* MSAddition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSAddition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39113081A2F1F7D002014D2 /* MSAdditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSAdditionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D391130D1A2F1F7D002014D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		D39112E61A2F1F7D002014D2 = {
 			isa = PBXGroup;
 			children = (
+				D3780B641A84F4820007C544 /* MSAddition.podspec */,
 				D39112F11A2F1F7D002014D2 /* MSAddition */,
 				D391131F1A2F2239002014D2 /* Example */,
 				D391130B1A2F1F7D002014D2 /* MSAdditionTests */,
@@ -118,6 +123,8 @@
 				D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */,
 				D3A7629A1A779EFD0074139B /* NSArray+MSAddition.h */,
 				D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */,
+				D3780B611A84F42B0007C544 /* NSURL+MSAddition.h */,
+				D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */,
 			);
 			path = MSAddition;
 			sourceTree = "<group>";
@@ -261,6 +268,7 @@
 				D39113281A2F2239002014D2 /* main.m in Sources */,
 				D39113251A2F2239002014D2 /* AppDelegate.m in Sources */,
 				D391132F1A2F22B0002014D2 /* NSDictionary+MSAddition.m in Sources */,
+				D3780B631A84F42B0007C544 /* NSURL+MSAddition.m in Sources */,
 				D3A7629C1A779EFD0074139B /* NSArray+MSAddition.m in Sources */,
 				D39113311A2F22B0002014D2 /* NSString+MSAddition.m in Sources */,
 			);
