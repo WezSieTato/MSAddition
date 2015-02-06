@@ -12,6 +12,8 @@
 #import "NSMutableString+MSAddition.h"
 #import "NSString+MSAddition.h"
 #import "NSDictionary+MSAddition.h"
+#import "NSURL+MSAddition.h"
+
 
 // UIKit
 #if TARGET_OS_IPHONE
