@@ -10,7 +10,7 @@
 
 @interface NSURL (MSAddition)
 
-+(NSURL *)urlToApplicationSupportDirectory;
-+(NSURL *)urlToApplicationDocumentsDirectory;
++(NSURL *)ms_urlToApplicationSupportDirectory;
++(NSURL *)ms_urlToApplicationDocumentsDirectory;
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation NSURL (MSAddition)
 
-+ (NSURL *)urlToApplicationSupportDirectory
++ (NSURL *)ms_urlToApplicationSupportDirectory
 {
     NSString *applicationSupportDirectory = [NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,
                                                                                  NSUserDomainMask,
@@ -28,7 +28,7 @@
     return [NSURL fileURLWithPath:applicationSupportDirectory];
 }
 
-+(NSURL *)urlToApplicationDocumentsDirectory
++(NSURL *)ms_urlToApplicationDocumentsDirectory
 {
     NSArray *searchPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentPath = [searchPaths lastObject];
