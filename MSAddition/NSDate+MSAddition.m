@@ -76,7 +76,7 @@
 -(unsigned)ms_weekday{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSWeekdayCalendarUnit fromDate:self];
-    return (unsigned)[components second];
+    return (unsigned)[components weekday];
 }
 
 -(bool)ms_isEqualDay:(NSDate *)date{
