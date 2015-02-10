@@ -24,6 +24,7 @@
 		D39113351A2F2BEE002014D2 /* MSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113341A2F2BEE002014D2 /* MSStringTest.m */; };
 		D39113371A2F3249002014D2 /* MSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113361A2F3249002014D2 /* MSDictionaryTest.m */; };
 		D3A7629C1A779EFD0074139B /* NSArray+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */; };
+		D3B739591A89FF6400DCAB0D /* NSDate+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B739581A89FF6400DCAB0D /* NSDate+MSAddition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		D39113381A2F35EC002014D2 /* MSAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAddition.h; sourceTree = "<group>"; };
 		D3A7629A1A779EFD0074139B /* NSArray+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSAddition.h"; sourceTree = "<group>"; };
 		D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MSAddition.m"; sourceTree = "<group>"; };
+		D3B739571A89FF6400DCAB0D /* NSDate+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MSAddition.h"; sourceTree = "<group>"; };
+		D3B739581A89FF6400DCAB0D /* NSDate+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MSAddition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */,
 				D3780B611A84F42B0007C544 /* NSURL+MSAddition.h */,
 				D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */,
+				D3B739571A89FF6400DCAB0D /* NSDate+MSAddition.h */,
+				D3B739581A89FF6400DCAB0D /* NSDate+MSAddition.m */,
 			);
 			path = MSAddition;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				D39113301A2F22B0002014D2 /* NSMutableString+MSAddition.m in Sources */,
 				D35FBA6E1A602C1800BB8A36 /* NSObject+MSAddition.m in Sources */,
 				D39113281A2F2239002014D2 /* main.m in Sources */,
+				D3B739591A89FF6400DCAB0D /* NSDate+MSAddition.m in Sources */,
 				D39113251A2F2239002014D2 /* AppDelegate.m in Sources */,
 				D391132F1A2F22B0002014D2 /* NSDictionary+MSAddition.m in Sources */,
 				D3780B631A84F42B0007C544 /* NSURL+MSAddition.m in Sources */,

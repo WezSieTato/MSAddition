@@ -13,6 +13,7 @@
 #import "NSString+MSAddition.h"
 #import "NSDictionary+MSAddition.h"
 #import "NSURL+MSAddition.h"
+#import "NSDate+MSAddition.h"
 
 
 // UIKit
