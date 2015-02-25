@@ -30,8 +30,11 @@
 -(unsigned)ms_second;
 -(unsigned)ms_weekday;
 
--(bool)ms_isEqualDay:(NSDate*)date;
--(bool)ms_isEarlierThan:(NSDate*)date;
--(bool)ms_isOlderThan:(NSDate*)date;
+-(BOOL)ms_isEqualDay:(NSDate*)date;
+-(BOOL)ms_isEarlierThan:(NSDate*)date;
+-(BOOL)ms_isOlderThan:(NSDate*)date;
+
++(unsigned)ms_lastDayOfMonth:(int)month;
++(BOOL)ms_isYearLeap:(int)year;
 
 @end

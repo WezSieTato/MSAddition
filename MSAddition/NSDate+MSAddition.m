@@ -52,7 +52,7 @@
 -(unsigned)ms_year{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSYearCalendarUnit fromDate:self];
-    return (unsigned)[components year];;
+    return (unsigned)[components year];
 }
 
 -(unsigned)ms_hour{
@@ -79,18 +79,42 @@
     return (unsigned)[components weekday];
 }
 
--(bool)ms_isEqualDay:(NSDate *)date{
+-(BOOL)ms_isEqualDay:(NSDate *)date{
     return ([self ms_year] == [date ms_year] &&
             [self ms_month] == [date ms_month] &&
             [self ms_day] == [date ms_day]);
 }
 
--(bool)ms_isEarlierThan:(NSDate *)date{
+-(BOOL)ms_isEarlierThan:(NSDate *)date{
     return [self compare:date] == NSOrderedAscending;
 }
 
--(bool)ms_isOlderThan:(NSDate *)date{
+-(BOOL)ms_isOlderThan:(NSDate *)date{
     return [self compare:date] == NSOrderedDescending;
+}
+
++(unsigned)ms_lastDayOfMonth:(int)month {
+    switch (month) {
+        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            return 31;
+            
+        case 4: case 6: case 9: case 11:
+            return 30;
+            
+        case 2:
+            return 28;
+            
+        default:
+            return 0;
+    }
+}
+
++(BOOL)ms_isYearLeap:(int)year{
+    BOOL a = (year % 4 == 0);
+    if(year % 100 == 0)
+        a = (year % 400 == 0);
+    
+    return a;
 }
 
 @end
