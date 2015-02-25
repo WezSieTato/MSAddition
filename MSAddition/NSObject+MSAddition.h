@@ -11,7 +11,9 @@
 @interface NSObject (MSAddition)
 
 @property (nonatomic, readonly) NSInteger ms_intPointer;
+@property (nonatomic, readonly) NSDictionary* ms_dictionaryRepresentation;
 
+-(NSDictionary*)ms_dictionaryRepresentationForKeys:(NSArray*)keys;
 +(instancetype)ms_objectFromIntPointer:(NSInteger)pointer;
 
 @end
