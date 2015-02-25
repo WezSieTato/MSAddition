@@ -31,4 +31,16 @@
     return [sets[0] isEqualToSet:sets[1]];
 }
 
+-(NSArray*)ms_uniquesPropertiesForKeyPath:(NSString *)key{
+    NSArray* properties = [self valueForKeyPath:key];
+    NSSet* set = [NSSet setWithArray:[properties ms_arrayRemovingNull]];
+    return [set allObjects];
+}
+
+-(NSArray*)ms_arrayRemovingNull {
+    NSMutableArray* mut = [self mutableCopy];
+    [mut removeObject:[NSNull null]];
+    return [mut copy];
+}
+
 @end

@@ -35,4 +35,7 @@
  */
 -(BOOL)ms_isEqualToObjectsFromArray:(NSArray*)other;
 
+-(NSArray*)ms_uniquesPropertiesForKeyPath:(NSString*)key;
+-(NSArray*)ms_arrayRemovingNull;
+
 @end
