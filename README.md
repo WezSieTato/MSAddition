@@ -1,9 +1,6 @@
 # MSAddition
 
 [![CI Status](http://img.shields.io/travis/WezSieTato/MSAddition.svg?style=flat)](https://travis-ci.org/WezSieTato/MSAddition)
-[![Version](https://img.shields.io/cocoapods/v/MSAddition.svg?style=flat)](http://cocoadocs.org/docsets/MSAddition)
-[![License](https://img.shields.io/cocoapods/l/MSAddition.svg?style=flat)](http://cocoadocs.org/docsets/MSAddition)
-[![Platform](https://img.shields.io/cocoapods/p/MSAddition.svg?style=flat)](http://cocoadocs.org/docsets/MSAddition)
 
 ## Usage
 
@@ -14,7 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Installation
 
 MSAddition is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it, simply add the following lines to your Podfile:
+   source 'https://github.com/WezSieTato/MSPodsSpec.git'
 
     pod "MSAddition"
 

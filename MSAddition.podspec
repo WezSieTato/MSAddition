@@ -12,10 +12,15 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = 'Usefull categories with methods you can\'t find in SSToolkit.'
   s.description      = <<-DESC
-                       An optional longer description of MSAddition
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Usefull categories with methods you can\'t find in SSToolkit.
+                    Categories for:
+                    * NSObject
+                    * NSArray
+                    * NSDictionary
+                    * NSString
+                    * NSMutableString
+                    * NSDate
+                    * UIView
                        DESC
   s.homepage         = "https://github.com/WezSieTato/MSAddition"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
