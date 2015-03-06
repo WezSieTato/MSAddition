@@ -12,7 +12,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 MSAddition is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following lines to your Podfile:
-   source 'https://github.com/WezSieTato/MSPodsSpec.git'
+
+    source 'https://github.com/WezSieTato/MSPodsSpec.git'
 
     pod "MSAddition"
 
