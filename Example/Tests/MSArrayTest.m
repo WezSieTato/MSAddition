@@ -7,8 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSArray+MSAddition.h"
-#import "NSDate+MSAddition.h"
+#import <NSArray+MSAddition.h>
+#import <NSDate+MSAddition.h>
 
 @interface MSArrayTest : XCTestCase
 

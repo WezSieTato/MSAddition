@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSDate+MSAddition.h"
+#import <NSDate+MSAddition.h>
 
 @interface MSDateTest : XCTestCase
 

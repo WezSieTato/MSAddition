@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'MSAddition', :exclusive => true do
+  pod "MSAddition", :path => "../"
+
+  
+end

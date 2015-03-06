@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSObject+MSAddition.h"
+#import <NSObject+MSAddition.h>
 #import "TestObject.h"
 
 @interface MSObjectTest : XCTestCase

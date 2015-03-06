@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSDictionary+MSAddition.h"
+#import <NSDictionary+MSAddition.h>
 
 @interface MSDictionaryTest : XCTestCase
 

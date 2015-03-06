@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "UIView+MSAddition.h"
+#import <UIView+MSAddition.h>
 
 @interface MSViewTest : XCTestCase
 

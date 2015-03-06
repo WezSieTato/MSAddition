@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "NSString+MSAddition.h"
+#import <NSString+MSAddition.h>
 
 @interface MSStringTest : XCTestCase
 
