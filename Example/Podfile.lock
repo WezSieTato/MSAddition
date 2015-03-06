@@ -1,0 +1,14 @@
+PODS:
+  - MSAddition (0.1.0)
+
+DEPENDENCIES:
+  - MSAddition (from `../`)
+
+EXTERNAL SOURCES:
+  MSAddition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MSAddition: 34d3c9096cbde990dc1c150054ccbebf0e37195e
+
+COCOAPODS: 0.35.0
