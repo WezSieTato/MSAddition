@@ -59,4 +59,14 @@
     XCTAssertEqualObjects(representation, result);
 }
 
+-(void)testDescriptionFromProperties{
+    TestObject* test = [TestObject new];
+    test.string = @"siema";
+    test.number = @1;
+    NSString* result = @"\nTestObject:{\n\tstring : siema\n\tnumber : 1\n}";
+    NSString* descr = [test ms_descriptionFromProperties:@[@"string", @"number"]];
+    XCTAssertEqualObjects(descr, result);
+
+}
+
 @end
