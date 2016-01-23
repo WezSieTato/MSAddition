@@ -46,4 +46,28 @@
     return objc_unretainedObject(pointer);
 }
 
+-(NSString*)ms_descriptionFromProperties:(NSArray*)propertyNames{
+    NSMutableString* des = [@"\n" mutableCopy];
+    
+    [des appendString:[[self class] description]];
+    [des appendString:@":{\n"];
+    
+    for (NSString* propertyName in propertyNames) {
+        [des appendString:@"\t"];
+        [des appendString:propertyName];
+        [des appendString:@" : "];
+        id obj =[self valueForKey:propertyName];
+        if( !obj){
+            [des appendString: @"nil"];
+            
+        } else {
+            [des appendString:[[self valueForKey:propertyName] description]];
+        }
+        [des appendString:@"\n"];
+    }
+    
+    [des appendString:@"}"];
+    return [des copy];
+}
+
 @end

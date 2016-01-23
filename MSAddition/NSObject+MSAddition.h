@@ -16,4 +16,6 @@
 -(NSDictionary*)ms_dictionaryRepresentationForKeys:(NSArray*)keys;
 +(instancetype)ms_objectFromIntPointer:(NSInteger)pointer;
 
+-(NSString*)ms_descriptionFromProperties:(NSArray*)propertyNames;
+
 @end
