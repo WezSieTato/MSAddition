@@ -1,7 +1,7 @@
 # MSAddition
 
 [![CI Status](http://img.shields.io/travis/WezSieTato/MSAddition.svg?style=flat)](https://travis-ci.org/WezSieTato/MSAddition)
-[![Coverage Status](https://coveralls.io/repos/github/WezSieTato/MSAddition/badge.svg?branch=coveralls)](https://coveralls.io/github/WezSieTato/MSAddition?branch=coveralls)
+[![Coverage Status](https://coveralls.io/repos/github/WezSieTato/MSAddition/badge.svg)](https://coveralls.io/github/WezSieTato/MSAddition?branch=coveralls)
 
 ## Usage
 
