@@ -6,4 +6,5 @@ install:
 - gem install slather
 script:
 - set -o pipefail && xcodebuild test -project MSAddition.xcodeproj -scheme MSAddition -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- pod lib lint --no-clean
 after_success: slather
