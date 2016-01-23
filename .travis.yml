@@ -3,7 +3,7 @@ language: objective-c
 before_install: rvm use $RVM_RUBY_VERSION
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-#- bundle install --without=documentation --path ../travis_bundle_dir
+- gem install slather
 script:
 - set -o pipefail && xcodebuild test -project MSAddition.xcodeproj -scheme MSAddition -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 after_success: slather
