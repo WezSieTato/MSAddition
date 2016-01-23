@@ -15,14 +15,6 @@
 
 @implementation MSStringTest
 
--(void)setUp {
-    [super setUp];
-}
-
--(void)tearDown {
-    [super tearDown];
-}
-
 -(void)testNumber{
     NSString* str = @"13";
     XCTAssertEqualObjects([str ms_numberValue], @13);

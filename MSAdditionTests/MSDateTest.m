@@ -15,8 +15,7 @@
 
 @implementation MSDateTest
 
-- (void)testComponents
-{
+- (void)testComponents{
     NSDate *date = [NSDate ms_dateWithYear:2013 month:3 day:14 hour:18 minute:30 second:40];
     XCTAssertEqual([date ms_day], 14, @"Wrong day: %i", [date ms_day]);
     XCTAssertEqual([date ms_month], 3, @"Wrong month: %i", [date ms_month]);
@@ -24,6 +23,34 @@
     XCTAssertEqual([date ms_hour], 18, @"Wrong hour: %i", [date ms_hour]);
     XCTAssertEqual([date ms_minute], 30, @"Wrong minute: %i", [date ms_minute]);
     XCTAssertEqual([date ms_second], 40, @"Wrong second: %i", [date ms_second]);
+    XCTAssertEqual([date ms_second], 40, @"Wrong second: %i", [date ms_second]);
+    XCTAssertEqual([date ms_weekday], 5, @"Wrong weekday: %i", [date ms_weekday]);
+}
+
+-(void)testIsEquaDaylShouldReturnTrue{
+    NSDate *date1 = [NSDate dateWithTimeIntervalSince1970:1453581660000];
+    NSDate *date2 = [NSDate dateWithTimeIntervalSince1970:1453581640000];
+
+    XCTAssertTrue([date1 ms_isEqualDay:date2]);
+    XCTAssertTrue([date2 ms_isEqualDay:date1]);
+    XCTAssertTrue([date2 ms_isEqualDay:date2]);
+    XCTAssertTrue([date1 ms_isEqualDay:date1]);
+}
+
+-(void)testIsEqualDayShouldReturnFalse{
+    NSDate *date1 = [NSDate dateWithTimeIntervalSince1970:1453581660000];
+    NSDate *date2 = [NSDate dateWithTimeIntervalSince1970:1453322460000];
+
+    XCTAssertFalse([date1 ms_isEqualDay:date2]);
+    XCTAssertFalse([date2 ms_isEqualDay:date1]);
+}
+
+-(void)testIsEarlierAndIsOlder{
+    NSDate *date1 = [NSDate dateWithTimeIntervalSince1970:1453322460000];
+    NSDate *date2 = [NSDate dateWithTimeIntervalSince1970:1453581660000];
+
+    XCTAssertTrue([date1 ms_isEarlierThan:date2]);
+    XCTAssertTrue([date2 ms_isOlderThan:date1]);
 }
 
 -(void)testLastDayOfMonth{
