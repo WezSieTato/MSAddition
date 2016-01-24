@@ -10,9 +10,9 @@
 
 @interface UIScrollView (MSAddition)
 
--(void)ms_scrollToBottom;
--(void)ms_scrollToBottomWithInset:(CGFloat)bottomInset;
--(void)ms_scrollToTop;
--(void)ms_scrollToTopWithInset:(CGFloat)bottomInset;
+-(void)ms_scrollToBottomAnimated:(BOOL)animated;
+-(void)ms_scrollToBottomWithInset:(CGFloat)bottomInset animated:(BOOL)animated;
+-(void)ms_scrollToTopAnimated:(BOOL)animated;
+-(void)ms_scrollToTopWithInset:(CGFloat)bottomInset animated:(BOOL)animated;
 
 @end
