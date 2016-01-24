@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 siema. All rights reserved.
 //
 
-#import "TestObject.h"
+#import "MSTestObject.h"
 
-@implementation TestObject
+@implementation MSTestObject
 
 @end

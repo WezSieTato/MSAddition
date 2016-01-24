@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		657AD92D1A9E223A00B27432 /* TestObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92C1A9E223A00B27432 /* TestObjects.m */; };
+		657AD92D1A9E223A00B27432 /* MSTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92C1A9E223A00B27432 /* MSTestObject.m */; };
 		657AD92F1A9E248000B27432 /* MSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92E1A9E248000B27432 /* MSDateTests.m */; };
 		9ED7EC041C5509CE0041F0A4 /* UIScrollView+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */; };
 		9ED7EC071C550BB90041F0A4 /* UIPageViewController+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC061C550BB90041F0A4 /* UIPageViewController+MSAddition.m */; };
@@ -45,8 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		657AD92B1A9E223A00B27432 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
-		657AD92C1A9E223A00B27432 /* TestObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjects.m; sourceTree = "<group>"; };
+		657AD92B1A9E223A00B27432 /* MSTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTestObject.h; sourceTree = "<group>"; };
+		657AD92C1A9E223A00B27432 /* MSTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTestObject.m; sourceTree = "<group>"; };
 		657AD92E1A9E248000B27432 /* MSDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDateTests.m; sourceTree = "<group>"; };
 		9ED7EC021C5509CE0041F0A4 /* UIScrollView+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MSAddition.h"; sourceTree = "<group>"; };
 		9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MSAddition.m"; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 				D35FBA6F1A602D3800BB8A36 /* MSObjectTests.m */,
 				D3599B721A6F9FF800923BB3 /* MSViewTests.m */,
 				D346DBB21A77A61F005E85E2 /* MSArrayTests.m */,
-				657AD92B1A9E223A00B27432 /* TestObject.h */,
-				657AD92C1A9E223A00B27432 /* TestObjects.m */,
+				657AD92B1A9E223A00B27432 /* MSTestObject.h */,
+				657AD92C1A9E223A00B27432 /* MSTestObject.m */,
 				657AD92E1A9E248000B27432 /* MSDateTests.m */,
 				9ED7EC0E1C5510970041F0A4 /* MSMutableArrayTests.m */,
 			);
@@ -324,7 +324,7 @@
 				9ED7EC0F1C5510970041F0A4 /* MSMutableArrayTests.m in Sources */,
 				D39113351A2F2BEE002014D2 /* MSStringTests.m in Sources */,
 				D39113331A2F2952002014D2 /* MSMutableStringTests.m in Sources */,
-				657AD92D1A9E223A00B27432 /* TestObjects.m in Sources */,
+				657AD92D1A9E223A00B27432 /* MSTestObject.m in Sources */,
 				D39113371A2F3249002014D2 /* MSDictionaryTests.m in Sources */,
 				D3599B731A6F9FF800923BB3 /* MSViewTests.m in Sources */,
 				D346DBB31A77A61F005E85E2 /* MSArrayTests.m in Sources */,

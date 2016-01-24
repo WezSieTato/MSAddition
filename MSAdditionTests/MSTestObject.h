@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TestObject : NSObject
+@interface MSTestObject : NSObject
 
 @property (strong, nonatomic) NSNumber* number;
 @property (strong, nonatomic) NSString* string;

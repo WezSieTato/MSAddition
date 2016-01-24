@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "NSObject+MSAddition.h"
-#import "TestObject.h"
+#import "MSTestObject.h"
 
 @interface MSObjectTest : XCTestCase
 
@@ -26,7 +26,7 @@
 }
 
 - (void)testDictionaryRepresentation{
-    TestObject* test = [TestObject new];
+    MSTestObject* test = [MSTestObject new];
     test.string = @"siema";
     test.number = @1;
     NSDictionary* result = @{
@@ -38,7 +38,7 @@
 }
 
 - (void)testDictionaryRepresentationForKeys{
-    TestObject* test = [TestObject new];
+    MSTestObject* test = [MSTestObject new];
     test.string = @"siema";
     test.number = @1;
     NSArray* keys = @[@"string"];
@@ -49,13 +49,23 @@
     XCTAssertEqualObjects(representation, result);
 }
 
-- (void)testDescriptionForKeys{
-    TestObject* test = [TestObject new];
+- (void)testDescriptionForKeysShouldPrintEveryValues{
+    MSTestObject* test = [MSTestObject new];
     test.string = @"siema";
     test.number = @1;
     
     NSArray* keys = @[@"string", @"number"];
-    NSString* expected = @"TestObject:{\n\tstring : siema\n\tnumber : 1\n}";
+    NSString* expected = @"MSTestObject:{\n\tstring : siema\n\tnumber : 1\n}";
+    
+    XCTAssertEqualObjects([test ms_descriptionFromProperties:keys], expected);
+}
+
+- (void)testDescriptionForKeysShouldPrintValueAndNil{
+    MSTestObject* test = [MSTestObject new];
+    test.string = @"siema";
+    
+    NSArray* keys = @[@"string", @"number"];
+    NSString* expected = @"MSTestObject:{\n\tstring : siema\n\tnumber : nil\n}";
     
     XCTAssertEqualObjects([test ms_descriptionFromProperties:keys], expected);
 }
