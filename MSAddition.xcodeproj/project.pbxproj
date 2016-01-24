@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		657AD92D1A9E223A00B27432 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92C1A9E223A00B27432 /* TestObject.m */; };
-		657AD92F1A9E248000B27432 /* MSDateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92E1A9E248000B27432 /* MSDateTest.m */; };
+		657AD92D1A9E223A00B27432 /* TestObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92C1A9E223A00B27432 /* TestObjects.m */; };
+		657AD92F1A9E248000B27432 /* MSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92E1A9E248000B27432 /* MSDateTests.m */; };
 		9ED7EC041C5509CE0041F0A4 /* UIScrollView+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */; };
 		9ED7EC071C550BB90041F0A4 /* UIPageViewController+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC061C550BB90041F0A4 /* UIPageViewController+MSAddition.m */; };
 		9ED7EC0A1C550C2A0041F0A4 /* NSMutableArray+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC091C550C2A0041F0A4 /* NSMutableArray+MSAddition.m */; };
 		9ED7EC0D1C550C870041F0A4 /* UIFont+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC0C1C550C870041F0A4 /* UIFont+MSAddition.m */; };
-		D346DBB31A77A61F005E85E2 /* MSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D346DBB21A77A61F005E85E2 /* MSArrayTest.m */; };
+		9ED7EC0F1C5510970041F0A4 /* MSMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC0E1C5510970041F0A4 /* MSMutableArrayTests.m */; };
+		D346DBB31A77A61F005E85E2 /* MSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D346DBB21A77A61F005E85E2 /* MSArrayTests.m */; };
 		D3599B711A6F9E5300923BB3 /* UIView+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */; };
-		D3599B731A6F9FF800923BB3 /* MSViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B721A6F9FF800923BB3 /* MSViewTest.m */; };
+		D3599B731A6F9FF800923BB3 /* MSViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B721A6F9FF800923BB3 /* MSViewTests.m */; };
 		D35FBA6E1A602C1800BB8A36 /* NSObject+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */; };
-		D35FBA701A602D3800BB8A36 /* MSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */; };
+		D35FBA701A602D3800BB8A36 /* MSObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D35FBA6F1A602D3800BB8A36 /* MSObjectTests.m */; };
 		D3780B631A84F42B0007C544 /* NSURL+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */; };
 		D39113251A2F2239002014D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113211A2F2239002014D2 /* AppDelegate.m */; };
 		D39113261A2F2239002014D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39113221A2F2239002014D2 /* Images.xcassets */; };
@@ -26,9 +27,9 @@
 		D391132F1A2F22B0002014D2 /* NSDictionary+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D391132A1A2F22B0002014D2 /* NSDictionary+MSAddition.m */; };
 		D39113301A2F22B0002014D2 /* NSMutableString+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D391132C1A2F22B0002014D2 /* NSMutableString+MSAddition.m */; };
 		D39113311A2F22B0002014D2 /* NSString+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D391132E1A2F22B0002014D2 /* NSString+MSAddition.m */; };
-		D39113331A2F2952002014D2 /* MSMutableStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113321A2F2952002014D2 /* MSMutableStringTest.m */; };
-		D39113351A2F2BEE002014D2 /* MSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113341A2F2BEE002014D2 /* MSStringTest.m */; };
-		D39113371A2F3249002014D2 /* MSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113361A2F3249002014D2 /* MSDictionaryTest.m */; };
+		D39113331A2F2952002014D2 /* MSMutableStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113321A2F2952002014D2 /* MSMutableStringTests.m */; };
+		D39113351A2F2BEE002014D2 /* MSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113341A2F2BEE002014D2 /* MSStringTests.m */; };
+		D39113371A2F3249002014D2 /* MSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113361A2F3249002014D2 /* MSDictionaryTests.m */; };
 		D3A7629C1A779EFD0074139B /* NSArray+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */; };
 		D3B739591A89FF6400DCAB0D /* NSDate+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B739581A89FF6400DCAB0D /* NSDate+MSAddition.m */; };
 /* End PBXBuildFile section */
@@ -45,8 +46,8 @@
 
 /* Begin PBXFileReference section */
 		657AD92B1A9E223A00B27432 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
-		657AD92C1A9E223A00B27432 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
-		657AD92E1A9E248000B27432 /* MSDateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDateTest.m; sourceTree = "<group>"; };
+		657AD92C1A9E223A00B27432 /* TestObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjects.m; sourceTree = "<group>"; };
+		657AD92E1A9E248000B27432 /* MSDateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDateTests.m; sourceTree = "<group>"; };
 		9ED7EC021C5509CE0041F0A4 /* UIScrollView+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MSAddition.h"; sourceTree = "<group>"; };
 		9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MSAddition.m"; sourceTree = "<group>"; };
 		9ED7EC051C550BB90041F0A4 /* UIPageViewController+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MSAddition.h"; sourceTree = "<group>"; };
@@ -55,13 +56,14 @@
 		9ED7EC091C550C2A0041F0A4 /* NSMutableArray+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MSAddition.m"; sourceTree = "<group>"; };
 		9ED7EC0B1C550C870041F0A4 /* UIFont+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MSAddition.h"; sourceTree = "<group>"; };
 		9ED7EC0C1C550C870041F0A4 /* UIFont+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MSAddition.m"; sourceTree = "<group>"; };
-		D346DBB21A77A61F005E85E2 /* MSArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSArrayTest.m; sourceTree = "<group>"; };
+		9ED7EC0E1C5510970041F0A4 /* MSMutableArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMutableArrayTests.m; sourceTree = "<group>"; };
+		D346DBB21A77A61F005E85E2 /* MSArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSArrayTests.m; sourceTree = "<group>"; };
 		D3599B6F1A6F9E5300923BB3 /* UIView+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSAddition.h"; sourceTree = "<group>"; };
 		D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSAddition.m"; sourceTree = "<group>"; };
-		D3599B721A6F9FF800923BB3 /* MSViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewTest.m; sourceTree = "<group>"; };
+		D3599B721A6F9FF800923BB3 /* MSViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewTests.m; sourceTree = "<group>"; };
 		D35FBA6C1A602C1800BB8A36 /* NSObject+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MSAddition.h"; sourceTree = "<group>"; };
 		D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MSAddition.m"; sourceTree = "<group>"; };
-		D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObjectTest.m; sourceTree = "<group>"; };
+		D35FBA6F1A602D3800BB8A36 /* MSObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSObjectTests.m; sourceTree = "<group>"; };
 		D3780B611A84F42B0007C544 /* NSURL+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+MSAddition.h"; sourceTree = "<group>"; };
 		D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MSAddition.m"; sourceTree = "<group>"; };
 		D3780B641A84F4820007C544 /* MSAddition.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MSAddition.podspec; sourceTree = "<group>"; };
@@ -79,9 +81,9 @@
 		D391132C1A2F22B0002014D2 /* NSMutableString+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+MSAddition.m"; sourceTree = "<group>"; };
 		D391132D1A2F22B0002014D2 /* NSString+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MSAddition.h"; sourceTree = "<group>"; };
 		D391132E1A2F22B0002014D2 /* NSString+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MSAddition.m"; sourceTree = "<group>"; };
-		D39113321A2F2952002014D2 /* MSMutableStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMutableStringTest.m; sourceTree = "<group>"; };
-		D39113341A2F2BEE002014D2 /* MSStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStringTest.m; sourceTree = "<group>"; };
-		D39113361A2F3249002014D2 /* MSDictionaryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDictionaryTest.m; sourceTree = "<group>"; };
+		D39113321A2F2952002014D2 /* MSMutableStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMutableStringTests.m; sourceTree = "<group>"; };
+		D39113341A2F2BEE002014D2 /* MSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSStringTests.m; sourceTree = "<group>"; };
+		D39113361A2F3249002014D2 /* MSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDictionaryTests.m; sourceTree = "<group>"; };
 		D39113381A2F35EC002014D2 /* MSAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAddition.h; sourceTree = "<group>"; };
 		D3A7629A1A779EFD0074139B /* NSArray+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSAddition.h"; sourceTree = "<group>"; };
 		D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MSAddition.m"; sourceTree = "<group>"; };
@@ -163,15 +165,16 @@
 			isa = PBXGroup;
 			children = (
 				D391130C1A2F1F7D002014D2 /* Supporting Files */,
-				D39113321A2F2952002014D2 /* MSMutableStringTest.m */,
-				D39113341A2F2BEE002014D2 /* MSStringTest.m */,
-				D39113361A2F3249002014D2 /* MSDictionaryTest.m */,
-				D35FBA6F1A602D3800BB8A36 /* MSObjectTest.m */,
-				D3599B721A6F9FF800923BB3 /* MSViewTest.m */,
-				D346DBB21A77A61F005E85E2 /* MSArrayTest.m */,
+				D39113321A2F2952002014D2 /* MSMutableStringTests.m */,
+				D39113341A2F2BEE002014D2 /* MSStringTests.m */,
+				D39113361A2F3249002014D2 /* MSDictionaryTests.m */,
+				D35FBA6F1A602D3800BB8A36 /* MSObjectTests.m */,
+				D3599B721A6F9FF800923BB3 /* MSViewTests.m */,
+				D346DBB21A77A61F005E85E2 /* MSArrayTests.m */,
 				657AD92B1A9E223A00B27432 /* TestObject.h */,
-				657AD92C1A9E223A00B27432 /* TestObject.m */,
-				657AD92E1A9E248000B27432 /* MSDateTest.m */,
+				657AD92C1A9E223A00B27432 /* TestObjects.m */,
+				657AD92E1A9E248000B27432 /* MSDateTests.m */,
+				9ED7EC0E1C5510970041F0A4 /* MSMutableArrayTests.m */,
 			);
 			path = MSAdditionTests;
 			sourceTree = "<group>";
@@ -316,14 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35FBA701A602D3800BB8A36 /* MSObjectTest.m in Sources */,
-				657AD92F1A9E248000B27432 /* MSDateTest.m in Sources */,
-				D39113351A2F2BEE002014D2 /* MSStringTest.m in Sources */,
-				D39113331A2F2952002014D2 /* MSMutableStringTest.m in Sources */,
-				657AD92D1A9E223A00B27432 /* TestObject.m in Sources */,
-				D39113371A2F3249002014D2 /* MSDictionaryTest.m in Sources */,
-				D3599B731A6F9FF800923BB3 /* MSViewTest.m in Sources */,
-				D346DBB31A77A61F005E85E2 /* MSArrayTest.m in Sources */,
+				D35FBA701A602D3800BB8A36 /* MSObjectTests.m in Sources */,
+				657AD92F1A9E248000B27432 /* MSDateTests.m in Sources */,
+				9ED7EC0F1C5510970041F0A4 /* MSMutableArrayTests.m in Sources */,
+				D39113351A2F2BEE002014D2 /* MSStringTests.m in Sources */,
+				D39113331A2F2952002014D2 /* MSMutableStringTests.m in Sources */,
+				657AD92D1A9E223A00B27432 /* TestObjects.m in Sources */,
+				D39113371A2F3249002014D2 /* MSDictionaryTests.m in Sources */,
+				D3599B731A6F9FF800923BB3 /* MSViewTests.m in Sources */,
+				D346DBB31A77A61F005E85E2 /* MSArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
