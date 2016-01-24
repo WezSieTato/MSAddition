@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		657AD92D1A9E223A00B27432 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92C1A9E223A00B27432 /* TestObject.m */; };
 		657AD92F1A9E248000B27432 /* MSDateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 657AD92E1A9E248000B27432 /* MSDateTest.m */; };
+		9ED7EC041C5509CE0041F0A4 /* UIScrollView+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */; };
 		D346DBB31A77A61F005E85E2 /* MSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D346DBB21A77A61F005E85E2 /* MSArrayTest.m */; };
 		D3599B711A6F9E5300923BB3 /* UIView+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */; };
 		D3599B731A6F9FF800923BB3 /* MSViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3599B721A6F9FF800923BB3 /* MSViewTest.m */; };
@@ -43,6 +44,8 @@
 		657AD92B1A9E223A00B27432 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		657AD92C1A9E223A00B27432 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		657AD92E1A9E248000B27432 /* MSDateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDateTest.m; sourceTree = "<group>"; };
+		9ED7EC021C5509CE0041F0A4 /* UIScrollView+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MSAddition.h"; sourceTree = "<group>"; };
+		9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MSAddition.m"; sourceTree = "<group>"; };
 		D346DBB21A77A61F005E85E2 /* MSArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSArrayTest.m; sourceTree = "<group>"; };
 		D3599B6F1A6F9E5300923BB3 /* UIView+MSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSAddition.h"; sourceTree = "<group>"; };
 		D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSAddition.m"; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */,
 				D3B739571A89FF6400DCAB0D /* NSDate+MSAddition.h */,
 				D3B739581A89FF6400DCAB0D /* NSDate+MSAddition.m */,
+				9ED7EC021C5509CE0041F0A4 /* UIScrollView+MSAddition.h */,
+				9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */,
 			);
 			path = MSAddition;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3599B711A6F9E5300923BB3 /* UIView+MSAddition.m in Sources */,
+				9ED7EC041C5509CE0041F0A4 /* UIScrollView+MSAddition.m in Sources */,
 				D39113301A2F22B0002014D2 /* NSMutableString+MSAddition.m in Sources */,
 				D35FBA6E1A602C1800BB8A36 /* NSObject+MSAddition.m in Sources */,
 				D39113281A2F2239002014D2 /* main.m in Sources */,
