@@ -40,6 +40,17 @@
     return [arr copy];
 }
 
+
+-(void)ms_addTapToHideKeyboardRecognizer{
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(ms_hideKeyboard)];
+    tapRecognizer.cancelsTouchesInView = NO;
+    [self addGestureRecognizer:tapRecognizer];
+}
+
+-(void)ms_hideKeyboard{
+    [self endEditing:YES];
+}
+
 -(void)ms_addSubviewWithFitToParentConstraints:(UIView *)subview{
     [self addSubview: subview];
     
@@ -54,6 +65,24 @@
                           options:NSLayoutFormatDirectionLeadingToTrailing
                           metrics:nil
                           views:NSDictionaryOfVariableBindings(subview)]];
+}
+
+-(void)ms_animateConstraintWithDuration:(NSTimeInterval)duration animations:(void (^)(void))animations
+                      withCompletion:(void (^)(BOOL))completion{
+    
+    animations();
+    
+    [self setNeedsUpdateConstraints];
+    [UIView animateWithDuration:duration animations:^{
+        [self layoutIfNeeded];
+    } completion:^(BOOL finished) {
+        if(completion)
+            completion(finished);
+    }];
+}
+
+-(void)ms_animateConstraintWithDuration:(NSTimeInterval)duration animations:(void (^)(void))animations{
+    [self ms_animateConstraintWithDuration:duration animations:animations withCompletion:nil];
 }
 
 @end
