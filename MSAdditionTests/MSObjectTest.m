@@ -49,4 +49,15 @@
     XCTAssertEqualObjects(representation, result);
 }
 
+- (void)testDescriptionForKeys{
+    TestObject* test = [TestObject new];
+    test.string = @"siema";
+    test.number = @1;
+    
+    NSArray* keys = @[@"string", @"number"];
+    NSString* expected = @"TestObject:{\n\tstring : siema\n\tnumber : 1\n}";
+    
+    XCTAssertEqualObjects([test ms_descriptionFromProperties:keys], expected);
+}
+
 @end

@@ -22,9 +22,8 @@
     str = @"-13";
     XCTAssertEqualObjects([str ms_numberValue], @-13);
     
-    str = @"0.256";
+    str = @"0,256";
     XCTAssertEqualObjects([str ms_numberValue], @0.256);
-
 }
 
 -(void)testStringByRemovingCharactersInString{

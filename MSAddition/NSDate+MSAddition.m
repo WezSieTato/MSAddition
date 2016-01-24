@@ -10,8 +10,8 @@
 
 @implementation NSDate (MSAddition)
 
-+(NSDate*)ms_dateWithYear:(unsigned int)year month:(unsigned int)month day:(unsigned int)day
-                  hour:(unsigned int)hour minute:(unsigned int)minute second:(unsigned int)second{
++(NSDate*)ms_dateWithYear:(NSUInteger)year month:(NSUInteger)month day:(NSUInteger)day
+                     hour:(NSUInteger)hour minute:(NSUInteger)minute second:(NSUInteger)second{
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     [components setDay:day];
@@ -24,59 +24,59 @@
     return [calendar dateFromComponents:components];
 }
 
-+(NSDate*)ms_dateWithYear:(unsigned int)year month:(unsigned int)month day:(unsigned int)day
-                  hour:(unsigned int)hour minute:(unsigned int)minute{
++(NSDate*)ms_dateWithYear:(NSUInteger)year month:(NSUInteger)month day:(NSUInteger)day
+                     hour:(NSUInteger)hour minute:(NSUInteger)minute{
     return [self ms_dateWithYear:year month:month day:day hour:hour minute:minute second:0];
 }
 
-+(NSDate*)ms_dateWithYear:(unsigned int)year month:(unsigned int)month day:(unsigned int)day hour:(unsigned int)hour{
++(NSDate*)ms_dateWithYear:(NSUInteger)year month:(NSUInteger)month day:(NSUInteger)day hour:(NSUInteger)hour{
     return [self ms_dateWithYear:year month:month day:day hour:hour minute:0];
 }
 
-+(NSDate*)ms_dateWithYear:(unsigned int)year month:(unsigned int)month day:(unsigned int)day{
++(NSDate*)ms_dateWithYear:(NSUInteger)year month:(NSUInteger)month day:(NSUInteger)day{
     return [self ms_dateWithYear:year month:month day:day hour:0];
 }
 
--(unsigned)ms_day{
+-(NSUInteger)ms_day{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components:NSDayCalendarUnit fromDate:self];
-    return (unsigned)[components day];
+    return (NSUInteger)[components day];
 }
 
--(unsigned)ms_month{
+-(NSUInteger)ms_month{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSMonthCalendarUnit  fromDate:self];
-    return (unsigned)[components month];
+    return (NSUInteger)[components month];
 }
 
--(unsigned)ms_year{
+-(NSUInteger)ms_year{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSYearCalendarUnit fromDate:self];
-    return (unsigned)[components year];
+    return (NSUInteger)[components year];
 }
 
--(unsigned)ms_hour{
+-(NSUInteger)ms_hour{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSHourCalendarUnit fromDate:self];
-    return (unsigned)[components hour];
+    return (NSUInteger)[components hour];
 }
 
--(unsigned)ms_minute{
+-(NSUInteger)ms_minute{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSMinuteCalendarUnit fromDate:self];
-    return (unsigned)[components minute];
+    return (NSUInteger)[components minute];
 }
 
--(unsigned)ms_second{
+-(NSUInteger)ms_second{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSSecondCalendarUnit fromDate:self];
-    return (unsigned)[components second];
+    return (NSUInteger)[components second];
 }
 
--(unsigned)ms_weekday{
+-(NSUInteger)ms_weekday{
     NSDateComponents *components = [[NSCalendar currentCalendar]
                                     components: NSWeekdayCalendarUnit fromDate:self];
-    return (unsigned)[components weekday];
+    return (NSUInteger)[components weekday];
 }
 
 -(BOOL)ms_isEqualDay:(NSDate *)date{
@@ -93,7 +93,7 @@
     return [self compare:date] == NSOrderedDescending;
 }
 
-+(unsigned)ms_lastDayOfMonth:(int)month {
++(NSUInteger)ms_lastDayOfMonth:(NSUInteger)month {
     switch (month) {
         case 1: case 3: case 5: case 7: case 8: case 10: case 12:
             return 31;
@@ -109,7 +109,7 @@
     }
 }
 
-+(BOOL)ms_isYearLeap:(int)year{
++(BOOL)ms_isYearLeap:(NSInteger)year{
     BOOL a = (year % 4 == 0);
     if(year % 100 == 0)
         a = (year % 400 == 0);

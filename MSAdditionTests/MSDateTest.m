@@ -17,15 +17,17 @@
 
 - (void)testComponents{
     NSDate *date = [NSDate ms_dateWithYear:2013 month:3 day:14 hour:18 minute:30 second:40];
-    XCTAssertEqual([date ms_day], 14, @"Wrong day: %i", [date ms_day]);
-    XCTAssertEqual([date ms_month], 3, @"Wrong month: %i", [date ms_month]);
-    XCTAssertEqual([date ms_year], 2013, @"Wrong year: %i", [date ms_year]);
-    XCTAssertEqual([date ms_hour], 18, @"Wrong hour: %i", [date ms_hour]);
-    XCTAssertEqual([date ms_minute], 30, @"Wrong minute: %i", [date ms_minute]);
-    XCTAssertEqual([date ms_second], 40, @"Wrong second: %i", [date ms_second]);
-    XCTAssertEqual([date ms_second], 40, @"Wrong second: %i", [date ms_second]);
-    XCTAssertEqual([date ms_weekday], 5, @"Wrong weekday: %i", [date ms_weekday]);
+    XCTAssertEqual([date ms_day], 14, @"Wrong day: %lu", (unsigned long)[date ms_day]);
+    XCTAssertEqual([date ms_month], 3, @"Wrong month: %lu", (unsigned long)[date ms_month]);
+    XCTAssertEqual([date ms_year], 2013, @"Wrong year: %lu", (unsigned long)[date ms_year]);
+    XCTAssertEqual([date ms_hour], 18, @"Wrong hour: %lu", (unsigned long)[date ms_hour]);
+    XCTAssertEqual([date ms_minute], 30, @"Wrong minute: %lu", (unsigned long)[date ms_minute]);
+    XCTAssertEqual([date ms_second], 40, @"Wrong second: %lu", (unsigned long)[date ms_second]);
+    XCTAssertEqual([date ms_second], 40, @"Wrong second: %lu", (unsigned long)[date ms_second]);
+    XCTAssertEqual([date ms_weekday], 5, @"Wrong weekday: %lu", (unsigned long)[date ms_weekday]);
 }
+
+
 
 -(void)testIsEquaDaylShouldReturnTrue{
     NSDate *date1 = [NSDate dateWithTimeIntervalSince1970:1453581660000];

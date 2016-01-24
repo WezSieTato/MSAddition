@@ -47,7 +47,7 @@
 }
 
 -(NSString*)ms_descriptionFromProperties:(NSArray*)propertyNames{
-    NSMutableString* des = [@"\n" mutableCopy];
+    NSMutableString* des = [NSMutableString new];
     
     [des appendString:[[self class] description]];
     [des appendString:@":{\n"];
