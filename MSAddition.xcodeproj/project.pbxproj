@@ -132,6 +132,7 @@
 		D39112F11A2F1F7D002014D2 /* MSAddition */ = {
 			isa = PBXGroup;
 			children = (
+				D39113381A2F35EC002014D2 /* MSAddition.h */,
 				D39113291A2F22B0002014D2 /* NSDictionary+MSAddition.h */,
 				D391132A1A2F22B0002014D2 /* NSDictionary+MSAddition.m */,
 				D391132B1A2F22B0002014D2 /* NSMutableString+MSAddition.h */,
@@ -140,21 +141,20 @@
 				D391132E1A2F22B0002014D2 /* NSString+MSAddition.m */,
 				D35FBA6C1A602C1800BB8A36 /* NSObject+MSAddition.h */,
 				D35FBA6D1A602C1800BB8A36 /* NSObject+MSAddition.m */,
-				D39113381A2F35EC002014D2 /* MSAddition.h */,
-				D3599B6F1A6F9E5300923BB3 /* UIView+MSAddition.h */,
-				D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */,
 				D3A7629A1A779EFD0074139B /* NSArray+MSAddition.h */,
 				D3A7629B1A779EFD0074139B /* NSArray+MSAddition.m */,
+				9ED7EC081C550C2A0041F0A4 /* NSMutableArray+MSAddition.h */,
+				9ED7EC091C550C2A0041F0A4 /* NSMutableArray+MSAddition.m */,
 				D3780B611A84F42B0007C544 /* NSURL+MSAddition.h */,
 				D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */,
 				D3B739571A89FF6400DCAB0D /* NSDate+MSAddition.h */,
 				D3B739581A89FF6400DCAB0D /* NSDate+MSAddition.m */,
+				D3599B6F1A6F9E5300923BB3 /* UIView+MSAddition.h */,
+				D3599B701A6F9E5300923BB3 /* UIView+MSAddition.m */,
 				9ED7EC021C5509CE0041F0A4 /* UIScrollView+MSAddition.h */,
 				9ED7EC031C5509CE0041F0A4 /* UIScrollView+MSAddition.m */,
 				9ED7EC051C550BB90041F0A4 /* UIPageViewController+MSAddition.h */,
 				9ED7EC061C550BB90041F0A4 /* UIPageViewController+MSAddition.m */,
-				9ED7EC081C550C2A0041F0A4 /* NSMutableArray+MSAddition.h */,
-				9ED7EC091C550C2A0041F0A4 /* NSMutableArray+MSAddition.m */,
 				9ED7EC0B1C550C870041F0A4 /* UIFont+MSAddition.h */,
 				9ED7EC0C1C550C870041F0A4 /* UIFont+MSAddition.m */,
 			);

@@ -16,10 +16,15 @@
 #import "NSDate+MSAddition.h"
 #import "NSObject+MSAddition.h"
 #import "NSArray+MSAddition.h"
+#import "NSMutableArray+MSAddition.h"
 
 // UIKit
 #if TARGET_OS_IPHONE
     #import "UIView+MSAddition.h"
+    #import "UIView+MSAddition.h"
+    #import "UIFont+MSAddition.h"
+    #import "UIPageViewController+MSAddition.h"
+    #import "UIScrollView+MSAddition.h"
 #endif
 
 #endif
