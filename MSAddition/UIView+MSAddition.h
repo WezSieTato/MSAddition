@@ -12,5 +12,8 @@
 
 @property (nonatomic, setter=ms_setOriginFrame:) CGPoint ms_originFrame;
 @property (nonatomic, setter=ms_setSizeFrame:) CGSize ms_sizeFrame;
+@property (nonatomic, readonly) NSArray <UIView *>* ms_allSubViews;
+
+-(void)ms_addSubviewWithFitToParentConstraints:(UIView *)subview;
 
 @end

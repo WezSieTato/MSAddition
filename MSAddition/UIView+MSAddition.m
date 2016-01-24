@@ -30,4 +30,30 @@
     return self.frame.size;
 }
 
+-(NSArray<UIView *> *)ms_allSubViews{
+    NSMutableArray *arr = [[NSMutableArray alloc] init];
+    [arr addObject:self];
+    for (UIView *subview in self.subviews)
+    {
+        [arr addObjectsFromArray:(NSArray*)[subview ms_allSubViews]];
+    }
+    return [arr copy];
+}
+
+-(void)ms_addSubviewWithFitToParentConstraints:(UIView *)subview{
+    [self addSubview: subview];
+    
+    [subview setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self addConstraints:[NSLayoutConstraint
+                          constraintsWithVisualFormat:@"H:|-0-[subview]-0-|"
+                          options:NSLayoutFormatDirectionLeadingToTrailing
+                          metrics:nil
+                          views:NSDictionaryOfVariableBindings(subview)]];
+    [self addConstraints:[NSLayoutConstraint
+                          constraintsWithVisualFormat:@"V:|-0-[subview]-0-|"
+                          options:NSLayoutFormatDirectionLeadingToTrailing
+                          metrics:nil
+                          views:NSDictionaryOfVariableBindings(subview)]];
+}
+
 @end
