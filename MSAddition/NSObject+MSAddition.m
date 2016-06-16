@@ -12,7 +12,8 @@
 @implementation NSObject (MSAddition)
 
 -(NSInteger)ms_intPointer{
-    return (NSUInteger)objc_unretainedPointer(self);
+    CFTypeRef ref = (__bridge CFTypeRef)self;
+    return (NSInteger)ref;
 }
 
 - (NSDictionary *)ms_dictionaryRepresentation {
@@ -43,7 +44,8 @@
 }
 
 +(instancetype)ms_objectFromIntPointer:(NSInteger)pointer{
-    return objc_unretainedObject(pointer);
+    CFTypeRef ref = (CFTypeRef)pointer;
+    return (__bridge id)ref;
 }
 
 -(NSString*)ms_descriptionFromProperties:(NSArray*)propertyNames{

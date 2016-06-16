@@ -22,7 +22,6 @@
 		D3780B631A84F42B0007C544 /* NSURL+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D3780B621A84F42B0007C544 /* NSURL+MSAddition.m */; };
 		D39113251A2F2239002014D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113211A2F2239002014D2 /* AppDelegate.m */; };
 		D39113261A2F2239002014D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39113221A2F2239002014D2 /* Images.xcassets */; };
-		D39113271A2F2239002014D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D39113231A2F2239002014D2 /* Info.plist */; };
 		D39113281A2F2239002014D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D39113241A2F2239002014D2 /* main.m */; };
 		D391132F1A2F22B0002014D2 /* NSDictionary+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D391132A1A2F22B0002014D2 /* NSDictionary+MSAddition.m */; };
 		D39113301A2F22B0002014D2 /* NSMutableString+MSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D391132C1A2F22B0002014D2 /* NSMutableString+MSAddition.m */; };
@@ -243,7 +242,7 @@
 		D39112E71A2F1F7D002014D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = siema;
 				TargetAttributes = {
 					D39112EE1A2F1F7D002014D2 = {
@@ -279,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39113271A2F2239002014D2 /* Info.plist in Resources */,
 				D39113261A2F2239002014D2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,10 +360,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -410,6 +410,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -430,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.siema.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.siema.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -458,6 +461,7 @@
 				);
 				INFOPLIST_FILE = MSAdditionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.siema.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSAddition.app/MSAddition";
 			};
@@ -473,6 +477,7 @@
 				);
 				INFOPLIST_FILE = MSAdditionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.siema.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSAddition.app/MSAddition";
 			};
