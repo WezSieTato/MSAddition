@@ -1,2 +1,4 @@
 Example/MSAddition.xcworkspace/
 .idea
+xcuserdata
+.DS_Store
