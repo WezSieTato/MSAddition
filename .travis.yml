@@ -1,11 +1,17 @@
-
 language: objective-c
-osx_image: xcode7.1
-before_install: rvm use $RVM_RUBY_VERSION
-install:
-- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-- gem install slather
-script:
-- set -o pipefail && xcodebuild test -project MSAddition.xcodeproj -scheme MSAddition -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-- pod lib lint --no-clean
-after_success: slather
+osx_image: xcode11
+
+stages:
+- name: test
+
+jobs:
+  include:
+    - stage: test
+      name: "Unit tests"
+      xcode_project: MSAddition.xcodeproj
+      xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone 8
+      xcode_scheme: MSAddition
+      after_success: slather
+
+    - name:  "Validate podspec"
+      script: pod lib lint
