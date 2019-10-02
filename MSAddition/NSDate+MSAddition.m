@@ -39,43 +39,43 @@
 
 -(NSUInteger)ms_day{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components:NSDayCalendarUnit fromDate:self];
+                                    components:NSCalendarUnitDay fromDate:self];
     return (NSUInteger)[components day];
 }
 
 -(NSUInteger)ms_month{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components: NSMonthCalendarUnit  fromDate:self];
+                                    components: NSCalendarUnitMonth  fromDate:self];
     return (NSUInteger)[components month];
 }
 
 -(NSUInteger)ms_year{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components: NSYearCalendarUnit fromDate:self];
+                                    components: NSCalendarUnitYear fromDate:self];
     return (NSUInteger)[components year];
 }
 
 -(NSUInteger)ms_hour{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components: NSHourCalendarUnit fromDate:self];
+                                    components: NSCalendarUnitHour fromDate:self];
     return (NSUInteger)[components hour];
 }
 
 -(NSUInteger)ms_minute{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components: NSMinuteCalendarUnit fromDate:self];
+                                    components: NSCalendarUnitMinute fromDate:self];
     return (NSUInteger)[components minute];
 }
 
 -(NSUInteger)ms_second{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components: NSSecondCalendarUnit fromDate:self];
+                                    components: NSCalendarUnitSecond fromDate:self];
     return (NSUInteger)[components second];
 }
 
 -(NSUInteger)ms_weekday{
     NSDateComponents *components = [[NSCalendar currentCalendar]
-                                    components: NSWeekdayCalendarUnit fromDate:self];
+                                    components: NSCalendarUnitWeekday fromDate:self];
     return (NSUInteger)[components weekday];
 }
 
